@@ -10,7 +10,7 @@ public class Player : Entity
     private Image _image;
     private UIManager _uiManager;
     private AudioManager _audioManager;
-
+    private ShowHearts _hearts;
     private int _hp;
     private int _score;
 
@@ -25,8 +25,16 @@ public class Player : Entity
     {
         _hp = _maxHp;
         _score = 1000;
+        _image = GetComponent<Image>();
+        _hearts = GetComponent<ShowHearts>();
+    }
+
+    private void Start()
+    {
         _uiManager = UIManager.Instance;
         _audioManager = AudioManager.Instance;
+        _hearts.Init();
+        _hearts.UpdateHearts(_hp);
     }
 
     public void SetSprite(Sprite sprite)
@@ -39,6 +47,8 @@ public class Player : Entity
         _hp -= value;
         _score -= value * 100;
         _audioManager.PlaySound(_hit);
+
+        _hearts.UpdateHearts(_hp);
 
         if (_hp <= 0) 
         {

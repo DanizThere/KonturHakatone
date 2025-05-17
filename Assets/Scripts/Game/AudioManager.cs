@@ -20,6 +20,7 @@ public class AudioManager : MonoBehaviour
 
     public void PlayMusic(AudioClip clip)
     {
+        _musicInGame.Stop();
         _musicInGame.PlayOneShot(clip);
     }
 }

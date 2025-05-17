@@ -10,18 +10,20 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject _textInfo;
     [SerializeField] private GameObject _battlefield;
 
-    [SerializeField] private RectTransform _hpBar;
+    [SerializeField] private GameObject _hpBar;
 
     public GameObject Lose => _lose;
     public GameObject Start => _start;
     public GameObject End => _end;
-    public RectTransform HpBar => _hpBar;
+    public GameObject HpBar => _hpBar;
     public GameObject Battlefield => _battlefield;
     public GameObject TextInfo => _textInfo;
 
     private void Awake()
     {
         Instance = this;
+
+        _start.SetActive(true);
 
         _lose.SetActive(false);
         _end.SetActive(false);

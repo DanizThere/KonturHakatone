@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class StartGame : MonoBehaviour
@@ -6,22 +7,43 @@ public class StartGame : MonoBehaviour
     [SerializeField] private Transform _startPos;
     [SerializeField] private Transform _startGamePos;
     [SerializeField] private AudioClip _gameMusic;
+    [SerializeField] private AudioClip _startMusic;
+    [SerializeField] private AudioClip _CatTolk;
+    [SerializeField] private TextMeshProUGUI _text;
+    [SerializeField] private string text;
+    private UIManager _uiManager;
     private Camera _camera;
     private AudioManager _audioManager;
-
+    private TypingManager _typingManager;
 
     private void Awake()
     {
         _camera = Camera.main;
-        _audioManager = AudioManager.Instance;
+        
 
         _camera.transform.position = _startPos.position;
+    }
+
+    private void Start()
+    {
+        _typingManager = TypingManager.Instance;
+        _uiManager = UIManager.Instance;
+        _audioManager = AudioManager.Instance;
+        _typingManager.StartType(_text, text, _CatTolk);
+
+        _audioManager.PlayMusic(_startMusic);
+    }
+
+    public void StartGamePlay()
+    {
+        _uiManager.Start.SetActive(false);
 
         StartCoroutine(StartGameplay());
     }
 
     public IEnumerator StartGameplay()
     {
+        _audioManager.PlayMusic(_gameMusic);
         float progress = 0;
         while(progress <= 1.5)
         {
@@ -29,7 +51,5 @@ public class StartGame : MonoBehaviour
             progress += Time.deltaTime;
             yield return null;
         }
-        _audioManager._lastMusic = _gameMusic;
-        _audioManager.PlayMusic(_gameMusic);
     }
 }
