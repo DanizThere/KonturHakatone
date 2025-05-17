@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject _start;
     [SerializeField] private GameObject _end;
     [SerializeField] private GameObject _textInfo;
+    [SerializeField] private GameObject _battlefield;
 
     [SerializeField] private RectTransform _hpBar;
 
@@ -15,6 +16,7 @@ public class UIManager : MonoBehaviour
     public GameObject Start => _start;
     public GameObject End => _end;
     public RectTransform HpBar => _hpBar;
+    public GameObject Battlefield => _battlefield;
     public GameObject TextInfo => _textInfo;
 
     private void Awake()

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CardsTurnManager : MonoBehaviour
 {
+    [SerializeField] private AudioClip _end;
     private Turn _turn;
     private Player _player;
     private Cat _cat;
@@ -24,8 +25,7 @@ public class CardsTurnManager : MonoBehaviour
         }
         else if(_cat.Specs == 2)
         {
-            _player.HP--;
-            if (_player.HP <= 0) _manager.Lose.SetActive(true);
+            _player.SetHit(1);
         }
     }
 
