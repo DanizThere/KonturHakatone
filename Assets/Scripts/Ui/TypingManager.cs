@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class TypingManager : MonoBehaviour
 {
-    [SerializeField] private AudioClip _voice;
     [SerializeField] private AudioSource _audioSource;
     public static TypingManager Instance;
 
