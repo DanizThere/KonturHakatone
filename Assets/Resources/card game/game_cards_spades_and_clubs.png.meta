@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: df68587aee8b6de42b8728b4950c51d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5268913381639736783
+    second: game_cards_spades_and_clubs_0
+  - first:
+      213: -1201683174896304529
+    second: game_cards_spades_and_clubs_1
+  - first:
+      213: 7581437502645270290
+    second: game_cards_spades_and_clubs_2
+  - first:
+      213: 3950446780657780835
+    second: game_cards_spades_and_clubs_3
+  - first:
+      213: 5470999744217318184
+    second: game_cards_spades_and_clubs_4
+  - first:
+      213: -3629167727084508749
+    second: game_cards_spades_and_clubs_5
+  - first:
+      213: -3499099020985653241
+    second: game_cards_spades_and_clubs_6
+  - first:
+      213: -7351909136094365152
+    second: game_cards_spades_and_clubs_7
+  - first:
+      213: 5362904150940391033
+    second: game_cards_spades_and_clubs_8
+  - first:
+      213: 2719394942721818164
+    second: game_cards_spades_and_clubs_9
+  - first:
+      213: -6307048682257107383
+    second: game_cards_spades_and_clubs_10
+  - first:
+      213: 5674673097782531570
+    second: game_cards_spades_and_clubs_11
+  - first:
+      213: 5998573675453714289
+    second: game_cards_spades_and_clubs_12
+  - first:
+      213: 2528139171947818574
+    second: game_cards_spades_and_clubs_13
+  - first:
+      213: 1133142502492983130
+    second: game_cards_spades_and_clubs_14
+  - first:
+      213: 214495442738871133
+    second: game_cards_spades_and_clubs_15
+  - first:
+      213: -5722517240215386693
+    second: game_cards_spades_and_clubs_16
+  - first:
+      213: -7125150045661321732
+    second: game_cards_spades_and_clubs_17
+  - first:
+      213: -5822239806708631971
+    second: game_cards_spades_and_clubs_18
+  - first:
+      213: 4054706286766185950
+    second: game_cards_spades_and_clubs_19
+  - first:
+      213: 4044641322160876181
+    second: game_cards_spades_and_clubs_20
+  - first:
+      213: 1013226054162207174
+    second: game_cards_spades_and_clubs_21
+  - first:
+      213: -6330651137358265758
+    second: game_cards_spades_and_clubs_22
+  - first:
+      213: -1792790512747643085
+    second: game_cards_spades_and_clubs_23
+  - first:
+      213: 5405185840692323221
+    second: game_cards_spades_and_clubs_24
+  - first:
+      213: -1848198219924627150
+    second: game_cards_spades_and_clubs_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132bf0ff13f01e6b0800000000000000
+      internalID: -5268913381639736783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6efdbbe483c25fe0800000000000000
+      internalID: -1201683174896304529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217feff8d3da63960800000000000000
+      internalID: 7581437502645270290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 56
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3684139aa6ec2d630800000000000000
+      internalID: 3950446780657780835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8238350e745eceb40800000000000000
+      internalID: 5470999744217318184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 56
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9e0dc2e2b92adc0800000000000000
+      internalID: -3629167727084508749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708ab3cbaf3b07fc0800000000000000
+      internalID: -3499099020985653241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 56
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a7522c795c8f990800000000000000
+      internalID: -7351909136094365152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976154159ecdc6a40800000000000000
+      internalID: 5362904150940391033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e7decda4b3db520800000000000000
+      internalID: 2719394942721818164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94638f0c3acd878a0800000000000000
+      internalID: -6307048682257107383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_11
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f51bc1ed1d70ce40800000000000000
+      internalID: 5674673097782531570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f8d6cd9f63f3350800000000000000
+      internalID: 5998573675453714289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 55
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e23b6ae21c51320800000000000000
+      internalID: 2528139171947818574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_14
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 34
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fcdf43a1bb9bf00800000000000000
+      internalID: 1133142502492983130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 55
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bf36ef77a0af200800000000000000
+      internalID: 214495442738871133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 55
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5c9e3a3e88590b0800000000000000
+      internalID: -5722517240215386693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 55
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5affcb8c16e1d90800000000000000
+      internalID: -7125150045661321732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d563efb4ebf333fa0800000000000000
+      internalID: -5822239806708631971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_19
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edddd3392e5354830800000000000000
+      internalID: 4054706286766185950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ae3436ad3712830800000000000000
+      internalID: 4044641322160876181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1528b5ab3bf0e00800000000000000
+      internalID: 1013226054162207174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26286d0f4520528a0800000000000000
+      internalID: -6330651137358265758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f7cfaf68abe17e0800000000000000
+      internalID: -1792790512747643085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_24
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593ef6b52e3130b40800000000000000
+      internalID: 5405185840692323221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_spades_and_clubs_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23122ead281e956e0800000000000000
+      internalID: -1848198219924627150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      game_cards_spades_and_clubs_0: -5268913381639736783
+      game_cards_spades_and_clubs_1: -1201683174896304529
+      game_cards_spades_and_clubs_10: -6307048682257107383
+      game_cards_spades_and_clubs_11: 5674673097782531570
+      game_cards_spades_and_clubs_12: 5998573675453714289
+      game_cards_spades_and_clubs_13: 2528139171947818574
+      game_cards_spades_and_clubs_14: 1133142502492983130
+      game_cards_spades_and_clubs_15: 214495442738871133
+      game_cards_spades_and_clubs_16: -5722517240215386693
+      game_cards_spades_and_clubs_17: -7125150045661321732
+      game_cards_spades_and_clubs_18: -5822239806708631971
+      game_cards_spades_and_clubs_19: 4054706286766185950
+      game_cards_spades_and_clubs_2: 7581437502645270290
+      game_cards_spades_and_clubs_20: 4044641322160876181
+      game_cards_spades_and_clubs_21: 1013226054162207174
+      game_cards_spades_and_clubs_22: -6330651137358265758
+      game_cards_spades_and_clubs_23: -1792790512747643085
+      game_cards_spades_and_clubs_24: 5405185840692323221
+      game_cards_spades_and_clubs_25: -1848198219924627150
+      game_cards_spades_and_clubs_3: 3950446780657780835
+      game_cards_spades_and_clubs_4: 5470999744217318184
+      game_cards_spades_and_clubs_5: -3629167727084508749
+      game_cards_spades_and_clubs_6: -3499099020985653241
+      game_cards_spades_and_clubs_7: -7351909136094365152
+      game_cards_spades_and_clubs_8: 5362904150940391033
+      game_cards_spades_and_clubs_9: 2719394942721818164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

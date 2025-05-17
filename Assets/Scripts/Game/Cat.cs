@@ -11,6 +11,7 @@ public class Cat : Entity
     private AudioSource _audioSource;
     private Dictionary<CardValue, CardPhrase> _lines = new();
     private CardsTurnManager _turnManager;
+    private UIManager _uiManager;
     private IEnumerator _coroutine; 
     [SerializeField] private CardPhrase[] _phrases;
     [SerializeField] private TextMeshProUGUI _text;
@@ -22,6 +23,7 @@ public class Cat : Entity
         _audioSource = GetComponent<AudioSource>();
         _deck = GetComponent<Deck>();
         _turnManager = FindAnyObjectByType<CardsTurnManager>();
+        _uiManager = UIManager.Instance;
 
         foreach (var phrase in _phrases)
         {
@@ -41,6 +43,7 @@ public class Cat : Entity
     public IEnumerator CheckCard(CardPrefab card)
     {
         _text.text = null;
+        _uiManager.TextInfo.SetActive(true);
 
         var clips = _lines[(CardValue)card.Card.Value];
         int last = clips.Phrases.Length;
@@ -59,6 +62,7 @@ public class Cat : Entity
             if(voice != null) _audioSource.PlayOneShot(voice, .5f);
             yield return null;
         }
+        _uiManager.TextInfo.SetActive(false);
 
         _askToCard.TryPick(card);
     }

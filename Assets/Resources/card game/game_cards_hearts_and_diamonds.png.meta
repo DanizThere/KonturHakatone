@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 32467288e34eeda48a3d10abb83b2c62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3183496530394730219
+    second: game_cards_hearts_and_diamonds_0
+  - first:
+      213: 7800600251659437076
+    second: game_cards_hearts_and_diamonds_1
+  - first:
+      213: -1060791750542206057
+    second: game_cards_hearts_and_diamonds_2
+  - first:
+      213: 1160302330648929084
+    second: game_cards_hearts_and_diamonds_3
+  - first:
+      213: 5481759200068258686
+    second: game_cards_hearts_and_diamonds_4
+  - first:
+      213: 111772258393077744
+    second: game_cards_hearts_and_diamonds_5
+  - first:
+      213: -4899225076063046309
+    second: game_cards_hearts_and_diamonds_6
+  - first:
+      213: 3126173673857527341
+    second: game_cards_hearts_and_diamonds_7
+  - first:
+      213: 9084112233483410841
+    second: game_cards_hearts_and_diamonds_8
+  - first:
+      213: 4076037283589426098
+    second: game_cards_hearts_and_diamonds_9
+  - first:
+      213: -3554648146470919149
+    second: game_cards_hearts_and_diamonds_10
+  - first:
+      213: 5243534567112270652
+    second: game_cards_hearts_and_diamonds_11
+  - first:
+      213: 9014914158444995404
+    second: game_cards_hearts_and_diamonds_12
+  - first:
+      213: -6027206609137434961
+    second: game_cards_hearts_and_diamonds_13
+  - first:
+      213: -387284879893147405
+    second: game_cards_hearts_and_diamonds_14
+  - first:
+      213: -3824197247357981905
+    second: game_cards_hearts_and_diamonds_15
+  - first:
+      213: 6778179932603687927
+    second: game_cards_hearts_and_diamonds_16
+  - first:
+      213: 5840247856309355613
+    second: game_cards_hearts_and_diamonds_17
+  - first:
+      213: -5187928170179215430
+    second: game_cards_hearts_and_diamonds_18
+  - first:
+      213: 4446185215828150001
+    second: game_cards_hearts_and_diamonds_19
+  - first:
+      213: 7158994131955076253
+    second: game_cards_hearts_and_diamonds_20
+  - first:
+      213: -6039442282416167565
+    second: game_cards_hearts_and_diamonds_21
+  - first:
+      213: 3351381329649438712
+    second: game_cards_hearts_and_diamonds_22
+  - first:
+      213: 2652744300498732893
+    second: game_cards_hearts_and_diamonds_23
+  - first:
+      213: -6391022366392269120
+    second: game_cards_hearts_and_diamonds_24
+  - first:
+      213: -2521278774093902169
+    second: game_cards_hearts_and_diamonds_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5113222c5c2f1d3d0800000000000000
+      internalID: -3183496530394730219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414cbfa799c414c60800000000000000
+      internalID: 7800600251659437076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b5440f58f4741f0800000000000000
+      internalID: -1060791750542206057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 56
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33236a72d83a1010800000000000000
+      internalID: 1160302330648929084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b4c48e2fe131c40800000000000000
+      internalID: 5481759200068258686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 56
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7334dd6481d8100800000000000000
+      internalID: 111772258393077744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55739220c4720cb0800000000000000
+      internalID: -4899225076063046309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 56
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ea478a466626b20800000000000000
+      internalID: 3126173673857527341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d1f8852ff311e70800000000000000
+      internalID: 9084112233483410841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb889b405ef09830800000000000000
+      internalID: 4076037283589426098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314a918185a5baec0800000000000000
+      internalID: -3554648146470919149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_11
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33653848e6c4c840800000000000000
+      internalID: 5243534567112270652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43e0cef9a86b1d70800000000000000
+      internalID: 9014914158444995404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 55
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faef972c58f0b5ca0800000000000000
+      internalID: -6027206609137434961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_14
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 34
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0d613247610aaf0800000000000000
+      internalID: -387284879893147405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 55
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b63307dd8bdeac0800000000000000
+      internalID: -3824197247357981905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 55
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f326828cbee01e50800000000000000
+      internalID: 6778179932603687927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 55
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d544e8b7b7abc0150800000000000000
+      internalID: 5840247856309355613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfb938e0d6c008b0800000000000000
+      internalID: -5187928170179215430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_19
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6c70b95e504bd30800000000000000
+      internalID: 4446185215828150001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cc948ab3bd95360800000000000000
+      internalID: 7158994131955076253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3752c131e379f2ca0800000000000000
+      internalID: -6039442282416167565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff81ac109f728e20800000000000000
+      internalID: 3351381329649438712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d574b2fe2e070d420800000000000000
+      internalID: 2652744300498732893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_24
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6cc93d4078e47a0800000000000000
+      internalID: -6391022366392269120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_cards_hearts_and_diamonds_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 13
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae8662305e920dd0800000000000000
+      internalID: -2521278774093902169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      game_cards_hearts_and_diamonds_0: -3183496530394730219
+      game_cards_hearts_and_diamonds_1: 7800600251659437076
+      game_cards_hearts_and_diamonds_10: -3554648146470919149
+      game_cards_hearts_and_diamonds_11: 5243534567112270652
+      game_cards_hearts_and_diamonds_12: 9014914158444995404
+      game_cards_hearts_and_diamonds_13: -6027206609137434961
+      game_cards_hearts_and_diamonds_14: -387284879893147405
+      game_cards_hearts_and_diamonds_15: -3824197247357981905
+      game_cards_hearts_and_diamonds_16: 6778179932603687927
+      game_cards_hearts_and_diamonds_17: 5840247856309355613
+      game_cards_hearts_and_diamonds_18: -5187928170179215430
+      game_cards_hearts_and_diamonds_19: 4446185215828150001
+      game_cards_hearts_and_diamonds_2: -1060791750542206057
+      game_cards_hearts_and_diamonds_20: 7158994131955076253
+      game_cards_hearts_and_diamonds_21: -6039442282416167565
+      game_cards_hearts_and_diamonds_22: 3351381329649438712
+      game_cards_hearts_and_diamonds_23: 2652744300498732893
+      game_cards_hearts_and_diamonds_24: -6391022366392269120
+      game_cards_hearts_and_diamonds_25: -2521278774093902169
+      game_cards_hearts_and_diamonds_3: 1160302330648929084
+      game_cards_hearts_and_diamonds_4: 5481759200068258686
+      game_cards_hearts_and_diamonds_5: 111772258393077744
+      game_cards_hearts_and_diamonds_6: -4899225076063046309
+      game_cards_hearts_and_diamonds_7: 3126173673857527341
+      game_cards_hearts_and_diamonds_8: 9084112233483410841
+      game_cards_hearts_and_diamonds_9: 4076037283589426098
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
