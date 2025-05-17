@@ -14,11 +14,6 @@ public class Deck : MonoBehaviour
         _allDeck = FindAnyObjectByType<AllDeck>();
     }
 
-    private void Start()
-    {
-        AddCardRandomly();
-    }
-
     public void AddCardRandomly()
     {
         for(int i = 0; i < 6; i++)

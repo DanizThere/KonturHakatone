@@ -25,7 +25,8 @@ public class StartGame : MonoBehaviour
         float progress = 0;
         while(progress <= 1.5)
         {
-            _camera.transform.position = Vector3.MoveTowards(_camera.transform.position, _startGamePos.position, .5f);
+            _camera.transform.position = Vector3.MoveTowards(_camera.transform.position, _startGamePos.position, .1f);
+            progress += Time.deltaTime;
             yield return null;
         }
         _audioManager._lastMusic = _gameMusic;

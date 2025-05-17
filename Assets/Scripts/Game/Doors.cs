@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Doors : MonoBehaviour, IPointerDownHandler
+public class Doors : MonoBehaviour
 {
     [SerializeField] private Sprite _sprite;
     [SerializeField] private Transform _playerTransform;
@@ -20,7 +20,7 @@ public class Doors : MonoBehaviour, IPointerDownHandler
         _quizBattle = QuizBattle.Instance;
     }
 
-    public void OnPointerDown(PointerEventData eventData)
+    public void OnPointerDown()
     {
         _quizBattle.InitBattle(_question, _player, this);
     }
