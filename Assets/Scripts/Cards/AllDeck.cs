@@ -21,6 +21,20 @@ public class AllDeck : MonoBehaviour
 
     private void Awake()
     {
+        AddAllCards();
         Shuffle();
+    }
+
+    private void AddAllCards()
+    {
+        CardPrefabs.AddRange(GetComponentsInChildren<CardPrefab>());
+    }
+
+    public void AddCardToDeck(Deck deck)
+    {
+        if (CardPrefabs.Count == 0) return;
+        var card = CardPrefabs[^1];
+        CardPrefabs.Remove(card);
+        deck.AddCard(card);
     }
 }
