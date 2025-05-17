@@ -19,7 +19,7 @@ public class ShowHearts : MonoBehaviour
             _hearts[i].gameObject.SetActive(false);
         }
 
-        for(int i = 0; i < hp; i++)
+        for(int i = 0; i <= hp; i++)
         {
             _hearts[i].gameObject.SetActive(true);
         }

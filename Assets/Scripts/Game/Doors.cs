@@ -9,6 +9,7 @@ public class Doors : MonoBehaviour
     [SerializeField] private Transform _cameraTransform;
     [SerializeField] private Doors[] unlocables;
     [SerializeField] private QuizQuestion _question;
+    [SerializeField] private Item _item;
     private Button _button;
     private Player _player;
     private Camera _camera;
@@ -46,5 +47,6 @@ public class Doors : MonoBehaviour
         }
 
         gameObject.SetActive(false);
+        if(_item != null) _item.SetTrue();
     }
 }

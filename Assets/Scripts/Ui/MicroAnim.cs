@@ -23,6 +23,6 @@ public class MicroAnim : MonoBehaviour
         {
             _sin = Mathf.Sin(Time.time);
         }
-        _rectTransform.position = new Vector2(0, _sin * _force);
+        _rectTransform.anchoredPosition = new Vector2(0, _sin * _force);
     }
 }

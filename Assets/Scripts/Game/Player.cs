@@ -23,7 +23,7 @@ public class Player : Entity
 
     private void Awake()
     {
-        _hp = _maxHp;
+        _hp = 4;
         _score = 1000;
         _image = GetComponent<Image>();
         _hearts = GetComponent<ShowHearts>();
