@@ -5,13 +5,28 @@ public class CardsTurnManager : MonoBehaviour
     private Turn _turn;
     private Player _player;
     private Cat _cat;
-
+    private UIManager _manager;
     private void Awake()
     {
         _player = FindAnyObjectByType<Player>();
         _cat = FindAnyObjectByType<Cat>();
 
         SetTurn(Turn.PLAYER);
+
+        _manager = UIManager.Instance;
+    }
+
+    private void FixedUpdate()
+    {
+        if(_player.Specs == 2)
+        {
+            _manager.End.SetActive(true);
+        }
+        else if(_cat.Specs == 2)
+        {
+            _player.HP--;
+            if (_player.HP <= 0) _manager.Lose.SetActive(true);
+        }
     }
 
     public void StartCards()
@@ -30,12 +45,10 @@ public class CardsTurnManager : MonoBehaviour
         {
             case Turn.CAT:
                 SetTurn(Turn.PLAYER);
-                Debug.Log(1);
                 break;
             case Turn.PLAYER:
-                SetTurn(Turn.CAT); 
-
-                Debug.Log(2);
+                SetTurn(Turn.CAT);
+                _cat.PlayerHaveCard();
                 break;
         }
     }
