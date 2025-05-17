@@ -21,15 +21,11 @@ public class Deck : MonoBehaviour
 
     public void AddCardRandomly()
     {
-        if (_cards.Count == 0) return;
         for(int i = 0; i < 6; i++)
         {
-            var item = _allDeck.CardPrefabs[^1];
-            if (_allDeck.CardPrefabs.Contains(item))
-            {
-                AddCard(item);
-                _allDeck.CardPrefabs.Remove(item);
-            }
+            var item = _allDeck.AddCardToDeck();
+            if (item == null) break;
+            AddCard(item);
         }
     }
 
@@ -69,14 +65,35 @@ public class Deck : MonoBehaviour
 
     public CardPrefab SelectRandomCard()
     {
-        var card = _cards.First(x => x.Card.Value == _cards[UnityEngine.Random.Range(0, _cards.Count)].Card.Value);
-
+        var card = _cards[UnityEngine.Random.Range(0, _cards.Count)];
+        if(card == null) SelectRandomCard();
         return card;
+    }
+
+    public int DoExistsFourCards()
+    {
+        var bools = 0;
+        for(int i = 0; i < 13; i++)
+        {
+            var cards = _cards.Where(x => x.Card.Value == i).ToList();
+
+            if (cards.Count != 4) continue;
+            bools++;
+            foreach (var card in cards)
+            {
+                _cards.Remove(card);
+                card.transform.SetParent(null);
+                card.gameObject.SetActive(false);
+            }
+        }
+        return bools;
     }
 
     private List<CardPrefab> SelectRandomCards(CardPrefab card)
     {
         var cards = _cards.Where(x => x.Card.Value == card.Card.Value).ToList();
+
+        if(!cards.Any()) return null;
 
         foreach(var deckCard in cards)
         {

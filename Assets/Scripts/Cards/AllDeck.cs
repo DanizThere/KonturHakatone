@@ -30,11 +30,11 @@ public class AllDeck : MonoBehaviour
         CardPrefabs.AddRange(GetComponentsInChildren<CardPrefab>());
     }
 
-    public void AddCardToDeck(Deck deck)
+    public CardPrefab AddCardToDeck()
     {
-        if (CardPrefabs.Count == 0) return;
+        if (CardPrefabs.Count == 0) return null;
         var card = CardPrefabs[^1];
         CardPrefabs.Remove(card);
-        deck.AddCard(card);
+        return card;
     }
 }

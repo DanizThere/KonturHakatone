@@ -8,6 +8,7 @@ public class AskToCard : MonoBehaviour
 
     private CardsTurnManager _turnManager;
     private Entity _entity;
+    private Cat _cat;
 
     private void Awake()
     {
@@ -15,9 +16,10 @@ public class AskToCard : MonoBehaviour
         _entity = GetComponent<Entity>();
         _allDeck = FindAnyObjectByType<AllDeck>();
         _turnManager = FindAnyObjectByType<CardsTurnManager>();
+        _cat = FindAnyObjectByType<Cat>();
     }
 
-    public void TryPick(CardPrefab card)
+    public void TryPick(CardPrefab card = null)
     {
         if(card == null) card = _owner.SelectRandomCard();
 
@@ -28,10 +30,19 @@ public class AskToCard : MonoBehaviour
 
         if (_against.CheckCard(card) && _turnManager.ReturnTurn(_entity.Turn))
         {
+            if(_turnManager.ReturnTurn(_cat.Turn)) _cat.PlayerHaveCard();
             _owner.StealCards(card, _against);
-            _turnManager.CheckTurn();
             return;
         }
-        
+
+        if(!_against.CheckCard(card) && _turnManager.ReturnTurn(_entity.Turn))
+        {
+            _owner.AddCard(_allDeck.AddCardToDeck());
+            _turnManager.CheckTurn();
+        }
+
+        int c = _owner.DoExistsFourCards();
+
+        _entity.AddSpec(c);
     }
 }
