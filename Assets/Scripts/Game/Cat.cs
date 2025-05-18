@@ -81,5 +81,6 @@ public enum CardValue
     ten,
     eleven,
     twelve,
-    thirteen
+    thirteen,
+    fourteen
 }

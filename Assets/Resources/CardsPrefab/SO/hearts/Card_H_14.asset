@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bce99b812690cc4a93ca5cf5d22f206, type: 3}
-  m_Name: Card_S_6
+  m_Name: Card_H_14
   m_EditorClassIdentifier: 
-  CardImage: {fileID: -1201683174896304529, guid: df68587aee8b6de42b8728b4950c51d9, type: 3}
-  Value: 6
-  TypeOfCard: 2
+  CardImage: {fileID: -6039442282416167565, guid: 32467288e34eeda48a3d10abb83b2c62, type: 3}
+  Value: 14
+  TypeOfCard: 1

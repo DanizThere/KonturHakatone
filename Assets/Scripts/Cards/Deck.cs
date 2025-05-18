@@ -68,7 +68,7 @@ public class Deck : MonoBehaviour
     public int DoExistsFourCards()
     {
         var bools = 0;
-        for(int i = 0; i < 13; i++)
+        for(int i = 0; i < 14; i++)
         {
             var cards = _cards.Where(x => x.Card.Value == i).ToList();
 
