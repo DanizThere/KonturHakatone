@@ -23,7 +23,7 @@ public class UIManager : MonoBehaviour
     {
         Instance = this;
 
-        _start.SetActive(true);
+        if(_start != null)_start.SetActive(true);
 
         _lose.SetActive(false);
         _end.SetActive(false);

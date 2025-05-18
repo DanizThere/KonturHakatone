@@ -69,6 +69,7 @@ public class Player : Entity
             _hp = _maxHp;
             _score += 1000;
         }
+        _hearts.UpdateHearts(_hp);
 
         _audioManager.PlaySound(_heal);
     }

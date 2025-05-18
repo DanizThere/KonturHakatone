@@ -23,4 +23,10 @@ public class AudioManager : MonoBehaviour
         _musicInGame.Stop();
         _musicInGame.PlayOneShot(clip);
     }
+
+    public void StopMusic()
+    {
+        _musicInGame.Stop();
+        _sounds.Stop();
+    }
 }

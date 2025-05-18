@@ -112,7 +112,7 @@ MonoBehaviour:
     Phrases:
     - {fileID: 11400000, guid: 91a588a8c85402846bc23d1e4b47aa14, type: 2}
   _text: {fileID: 0}
-  _voice: {fileID: 0}
+  _voice: {fileID: 8300000, guid: 224b1d44025283c46ac3d5e3493c7898, type: 3}
 --- !u!82 &8623823113145047559
 AudioSource:
   m_ObjectHideFlags: 0

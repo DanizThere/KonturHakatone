@@ -5,8 +5,12 @@ using UnityEngine.UI;
 
 public class SceneLoader : MonoBehaviour
 {
+    public static SceneLoader Instance;
     [SerializeField] private GameObject _loadingBar;
     [SerializeField] private Slider _loadingSlider;
+
+    
+
     public void LoadScene(int sceneId)
     {
         _loadingBar.SetActive(true);
@@ -27,6 +31,7 @@ public class SceneLoader : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
         _loadingBar.SetActive(false);
     }
 }

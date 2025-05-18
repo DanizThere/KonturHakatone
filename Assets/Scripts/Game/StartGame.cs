@@ -11,6 +11,7 @@ public class StartGame : MonoBehaviour
     [SerializeField] private AudioClip _CatTolk;
     [SerializeField] private TextMeshProUGUI _text;
     [SerializeField] private string text;
+    [SerializeField] private Transform _startGamePosMans;
     private UIManager _uiManager;
     private Camera _camera;
     private AudioManager _audioManager;
@@ -41,7 +42,12 @@ public class StartGame : MonoBehaviour
         StartCoroutine(StartGameplay());
     }
 
-    public IEnumerator StartGameplay()
+    public void StartMansion()
+    {
+        StartCoroutine(GoToMansion());
+    }
+
+    private IEnumerator StartGameplay()
     {
         _audioManager.PlayMusic(_gameMusic);
         float progress = 0;
@@ -51,5 +57,19 @@ public class StartGame : MonoBehaviour
             progress += Time.deltaTime;
             yield return null;
         }
+    }
+
+    private IEnumerator GoToMansion()
+    {
+        float progress = 0;
+        _audioManager.StopMusic();
+        yield return new WaitForSeconds(1.5f);
+        while (progress <= 5f)
+        {
+            _camera.transform.position = Vector3.MoveTowards(_camera.transform.position, _startGamePosMans.position, .04f);
+            progress += Time.deltaTime;
+            yield return null;
+        }
+        SceneLoader.Instance.LoadScene(2);
     }
 }
